@@ -4,3 +4,11 @@ body {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 192, 26);
+    border: 10px;
+    border-color: white;
+}
