@@ -12,15 +12,15 @@ table {
     border: 100px;
     border-color: white;
 }
-th {
+td {
   background-color: white;
   border:5px solid white;
   padding: 8px;
-  text-align: left;
+  text-align: right;
 }
-table {
-    width: 100%;
-  border-collapse: collapse;
+table,th,td {
+  border: 20px;
   margin: 20px auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
