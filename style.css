@@ -8,19 +8,64 @@ body {
 table {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(26, 192, 26);
-    border: 100px;
+    background-color: rgb(20, 186, 20);
     border-color: white;
 }
-th {
-  background-color: white;
+td {
+  background-color: rgb(255, 255, 154);
   border:5px solid white;
   padding: 8px;
-  text-align: left;
+  text-align: right;
 }
-table {
-    width: 100%;
-  border-collapse: collapse;
+th,td {
+  border: 20px;
   margin: 20px auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,ol{
+  font-size: 21px;
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 400px;
+ 
+}
+.parts {
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px
+}
+li {
+  margin-bottom: 10px;
+  color: rgb(40, 40, 28)
+}
+.h1banner {
+  background-color:rgb(255, 255, 154) ;
+}
+.magnus {
+  width: 200px;
+}
+
+.bio{
+  color: rgb(40,40,28);
+  text-align: left;
+  padding-left: 200px;
+  font-size: 20px;
+  padding-right: 200px;
+}
+
+.pieces{
+  width:300px;
+}
+
+div {
+  text-align: center;
+  color: black;
+  font-size: 18.5px;
+  background-color: rgb(255, 255, 154);
+}
+
+img {
+  border: 5px groove rgb(32, 155, 23)
 }
