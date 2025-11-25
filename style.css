@@ -3,6 +3,7 @@ body {
     background-image: url("checkerboard.avif");
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: normal;
 }
 
 table {
@@ -68,4 +69,12 @@ div {
 
 img {
   border: 5px groove rgb(32, 155, 23)
+}
+
+.tableshadow {
+  box-shadow: 5px 10px 5px rgb(0, 0, 0);
+}
+
+.piec{
+  width:200px;
 }
